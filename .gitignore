@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+# vscode
+.vscode/
+*.code-workspace
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+build/
