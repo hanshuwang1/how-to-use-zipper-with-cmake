@@ -48,3 +48,6 @@
 CMakeFiles/
 CMakeCache.txt
 build/
+
+# project
+*.zip
