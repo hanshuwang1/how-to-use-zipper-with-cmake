@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "configurePresets": [
+        {
+            "name": "zipper_demo",
+            "displayName": "zipper_demo Preset",
+            "description": "Preset to use zipper",
+            "binaryDir": "${sourceDir}/build",
+            "generator": "Ninja",
+            "cacheVariables": {
+                "zipper_DIR": "./external/zipper/lib/cmake/zipper"
+            }
+        }
+    ]
+}
