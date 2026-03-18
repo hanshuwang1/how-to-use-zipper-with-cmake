@@ -117,3 +117,8 @@ cmake --build build
   - now you can will see a error: error while loading shared        libraries: libzipper.dll: cannot open shared object file: No such file or directory which means exe can not find dynamic lib, you should put libzipper.dll and exe in same directory or compile a static lib, feel free to explore.
   - libzipper.dll is in demo/external/zipper/bin/
     run ./build/zipper_demo.exe again, then you can see a zip under root directory.
+
+# develop enviroment
+- MSYS2 UCRT64
+- gcc.exe (Rev13, Built by MSYS2 project) 15.2.0
+- cmake version 4.2.3
