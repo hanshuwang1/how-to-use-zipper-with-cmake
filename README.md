@@ -65,7 +65,7 @@ cmake --install build/ --prefix ../demo/external/zipper
 cd ../demo
 ```
 - modify CMakeLists.txt
-```shell
+```cmake
 cmake_minimum_required(VERSION 3.25)
 project(Zipper_demo)
 
